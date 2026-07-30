@@ -1,8 +1,23 @@
 aid: merida-biosciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/merida-biosciences.png
 name: Merida Biosciences
-description: 'Merida Biosciences is a company surfaced as a portfolio company of gv and added to the API
-  Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Merida Biosciences is a Cambridge, Massachusetts biopharmaceutical company developing
+  precision immunology therapies for autoimmune and allergic disorders. The company targets the
+  pathogenic drivers of antibody-driven diseases with the goal of durable clinical responses while
+  minimizing the side effects of current non-specific autoimmune treatments. Launched in 2025 with
+  $121 million in funding and backed by GV, Merida operates as a preclinical therapeutics company
+  with a science-and-pipeline website and no public developer, API, or technical product surface.'
 url: https://raw.githubusercontent.com/api-evangelist/merida-biosciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Immunology
+- Therapeutics
+- Autoimmune
+- Precision Medicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +45,16 @@ maintainers:
 common:
 - type: Website
   url: https://meridabio.com
+- type: About
+  url: https://meridabio.com/about-us/
+- type: Blog
+  url: https://meridabio.com/news-media/
+- type: PrivacyPolicy
+  url: https://meridabio.com/privacy/
+- type: TermsOfService
+  url: https://meridabio.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
